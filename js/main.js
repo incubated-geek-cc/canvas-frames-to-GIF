@@ -73,7 +73,7 @@ const demoTitles=[
     '🎬 Sample Square GIF: ◫ ◧ ◨ ◧'
 ];
 
-var selectedGIFType=1;
+var selectedGIFType=0;
 
 if(selectedGIFType==0) { /* The following functions and variables are relevent for the CIRCLE GIF file only */
     GIFDemoTitle.innerHTML=demoTitles[selectedGIFType];
